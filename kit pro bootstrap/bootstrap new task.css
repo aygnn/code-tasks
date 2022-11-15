@@ -1,0 +1,25 @@
+nav{
+    background-color:#0061f2 ;
+    height: 90px;
+}
+.navbar-brand{
+    color: white;
+   
+}
+ul#navs li a{
+    color: white;
+    
+}
+
+div#row{
+    background-color: #0061f2;
+    padding-top: 150px;
+   
+}
+#svg{
+
+   width: 100%;
+   color: white;
+   radius: 3rem;
+}
+
