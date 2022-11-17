@@ -1,0 +1,20 @@
+body {
+    height: 2000px;
+    background-color: aquamarine;
+}
+
+.div1 {
+    background-color: rgb(125, 162, 255);
+    height: 1500px;
+}
+
+.paragraf {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+p {
+    font-size: 18px;
+}

@@ -1,0 +1,34 @@
+.box1{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: #ADD8E6;
+    margin-top: 60px;
+}
+.box2{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    background: #FAFAD2;
+    bottom: 30px;
+    left: 30px;
+    top: 40px;
+}
+.box3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #D3D3D3;
+    left: 55px;
+    top: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: dotted;
+   border-color: red;
+   border-width: 3px;
+}
+p{
+    margin-top: 80px;
+    font-size: 25px;
+}
