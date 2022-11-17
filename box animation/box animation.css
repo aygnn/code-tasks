@@ -1,0 +1,113 @@
+.box1{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(21, 0, 208);
+    animation: myanimation 7s infinite linear ;
+    margin-top: 200px;
+    
+   
+}
+.box2{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(167, 176, 205);
+    animation: myanimation1 6s infinite linear ;
+    margin-top: -250px;
+    margin-left: 60px;
+    
+}
+.box3{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: rgb(0, 0, 0);
+    animation: myanimation2 5s infinite linear ;
+    margin-top: -200px;
+    margin-left: 140px;
+    
+    
+}
+@keyframes myanimation {
+    0%{
+        transform: translate(100px) rotate(0deg);
+        
+       
+    }
+    20%{
+        transform: translate(200px) rotate(180deg);
+      
+    }
+    40%{
+        transform: translate(300px) rotate(360deg);
+      
+    }
+    60%{
+        transform: translate(400px,) rotate(540deg);
+      
+    }
+    80%{
+        transform: translate(500px) rotate(720deg);
+        
+    }
+    100%{
+        transform: translate(600px) rotate(900deg);
+        
+    }
+}
+ @keyframes myanimation1 {
+    0%{
+        transform: translate(100px) rotate(0deg);
+        opacity: 0;
+       
+    }
+    20%{
+        transform: translate(200px) rotate(180deg);
+       opacity: 0.5;
+    }
+    40%{
+        transform: translate(300px) rotate(360deg);
+        opacity: 1;
+    }
+    60%{
+        transform: translate(400px) rotate(540deg);
+       opacity: 1;
+    }
+    80%{
+        transform: translate(500px) rotate(720deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(600px) rotate(900deg);
+        opacity: 1;
+    }
+}
+@keyframes myanimation2 {
+    0%{
+        transform: translate(100px) rotate(0deg);
+        opacity: 0;
+       
+    }
+    20%{
+        transform: translate(200px) rotate(180deg);
+       opacity: 0;
+    }
+    40%{
+        transform: translate(300px) rotate(360deg);
+        opacity: 0.5;
+    }
+    60%{
+        transform: translate(400px) rotate(540deg);
+       opacity: 0.7;
+    }
+    80%{
+        transform: translate(500px) rotate(720deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(600px) rotate(900deg);
+        opacity: 1;
+    }
+} 
+    
