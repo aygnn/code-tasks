@@ -1,0 +1,85 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 81px;
+  margin-top: 106px;
+}
+
+.column {
+  float: left;
+  width: 268px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.column .card {
+  position: relative;
+  padding-bottom: 19px;
+}
+
+.column .card .span1 {
+  position: absolute;
+  width: 41.8px;
+  height: 22.2px;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  margin-left: 199px;
+}
+
+.column img {
+  width: 248px;
+  height: 178px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container button {
+  width: 117px;
+  height: 38px;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  border: 1px solid;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 16px;
+}
+
+.container button:hover {
+  background-color: black;
+  color: white;
+}
+
+.container h4 {
+  font-weight: bolder;
+  font-size: 1.25rem;
+  font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.container i {
+  color: #ffc107;
+}
+/*# sourceMappingURL=card.css.map */
