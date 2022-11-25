@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script >
+
+        function myfunction1(n) 
+        {
+           let minn=0;
+           let maxx=0;
+             if(n%7==0){
+                console.log(n);
+             }
+             else
+             {
+                minn=n-n%7;
+                maxx=(parseInt(n/7)+1)*7;
+                if(maxx-n>n-minn){
+                    console.log(minn);
+                }
+                else{
+                    console.log(maxx)
+                }
+
+             }   
+        }
+
+        myfunction1(43)
+
+
+
+        
+
+        let count=0;
+        function myfunction2(m) {
+            if(m<50){
+                for(let i=3;i<m;i++){
+                    if(i%3==0){
+                        count++;
+                    }
+                }
+                console.log(count)
+            }
+            else{
+                console.log(`${m} ededi 50den boyukdur`)
+            }
+        }
+        myfunction2(3)
+
+
+
+
+
+        let say=0;
+        function myfunction3(m) {
+            if(m>50 & m<100){
+                for(let i=5;i<m;i+=5){
+                    
+                 say++;
+                    
+                }
+                console.log(say)
+            }
+            else{
+                console.log(`${m} ededi 50-100 araliginda deyil`)
+            }
+        }
+        myfunction3(60)
+
+
+
+       let say1=0;
+        function myfunction4(m) {
+            if(m>100){
+                for(let i=8;i<m;i+=8){
+                    
+                 say1++;
+                    
+                }
+                console.log(say1)
+            }
+            else{
+                console.log(`${m} ededi 100-den kicikdir`)
+            }
+        }
+        myfunction4(120)
+
+    </script>
+</body>
+</html>
