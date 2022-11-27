@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    .row{
+        background-color: $orange;
+        width: 1170px;
+        height: 544px;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 240px;
+    border-radius: 6px;
+
+    }
+
+.column {
+    display: flex;
+    
+    float: left;
+    width: 50%;
+    margin-top: 416px;
+    margin-bottom: 80px;
+    
+   h2{
+    position: absolute;
+    width: 368px;
+  
+    margin-left: 110px;
+  
+    // top: 2307px;
+    margin-top: -310px;
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+   }
+   p{
+    color: rgba(255, 255, 255, 0.64);
+    position: absolute;
+    height: 66px;
+    width: 470px;
+   margin-left: 110px;
+    // top: 2533px;
+    margin-top: -83px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+   }
+   
+   .contact{
+    margin-top: 27px;
+    margin-left: 110px;
+    width: 154px;
+    height: 48px;
+   
+    border-radius:6px ;
+    box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+text-transform: uppercase;
+
+color: #391400;
+   }
+   .photo{
+    display: flex;
+    justify-content: center;
+    margin-top: -384px;
+    margin-left: 73px;
+
+   }
+}
+@media only screen and (max-width: 391px){
+    .row{
+       width: 100%;
+    }
+   .column{
+    width: 100%;
+    background-color: $orange;
+    
+    margin-top: 173px;
+    h2{
+       margin-left: 25px;
+       margin-top: -96px;
+    }
+    
+    p{
+      width: 272px;
+      margin-left: 25px;
+      margin-top: 118px;
+    }
+    .contact{
+        position: absolute;
+      margin-top: 257px;
+      margin-left: 25px;
+    }
+    .photo{
+        height: 309px;
+       margin-top: 63px;
+      
+    }
+}
+}
+}
+

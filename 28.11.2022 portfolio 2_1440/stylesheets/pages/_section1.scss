@@ -1,0 +1,169 @@
+.section1{
+    margin-left: 24px;
+    .load{
+        width: 170px;
+            height: 48px;
+            left: 635px;
+            position: absolute;
+            background: #FFFFFF;
+            box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+            border-radius: 6px;
+            margin-top: 64px;
+            color: $dark-black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Epilogue';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 14px;
+                line-height: 14px;
+                text-align: center;
+                text-transform: uppercase;
+    }
+    .usthisse {
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        ul{
+            
+            display: flex;
+            justify-content: center;
+            li{
+                margin: 30px;
+                margin-top: 76px;
+            }
+            li a{
+                color: $dark-gray;
+                
+               
+             
+            }
+        }
+        span{
+            display: none;
+        }
+    }
+        .div1 {
+            position: relative;
+            display: flex;
+            
+            margin-left: 135px;
+            margin-right: 135px;
+            margin-top: 38px;
+            
+        }
+        .card {
+            width: 370px;
+            height: 416px;
+            margin: 16px;
+            img{
+                border-radius: 6px;
+               
+            }
+            span{
+                position: absolute;
+                background-color: white;
+               
+                border-radius: 19px;
+                color: $dark-black;
+                width: 84px;
+                height: 38px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 256px;
+                margin-right: 238px;
+                margin-bottom: 122px;
+                margin-left: 48px;
+                font-family: 'Epilogue';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 32px;
+            }
+            p {
+                // position: absolute;
+                // width: 87px;
+                // margin-top: 155px;
+                position: absolute;
+                width: 340px;
+                
+                left: 0px;
+                top: 70px;
+                font-family: 'Epilogue';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 40px;
+                line-height: 48px;
+            }
+        }
+        .div2{
+            display: flex;
+            
+            margin-left: 135px;
+            margin-right: 135px;
+            
+            .card {
+                width: 370px;
+                height: 416px;
+                margin: 16px;
+            }
+        }
+        @media only screen and (max-width: 391px){
+            
+            .load{
+                display: flex;
+                align-items: center;
+                left: 103px;
+                margin-top: 2px;
+            }
+            ul li a{
+                display: none;
+            }
+            span.respon{
+                display: block;
+                display: flex;
+                align-items: center;
+                width: 329px;
+                height: 48px;
+                color: $dark-gray;
+                position: absolute;
+                    left: 33px;
+                    top: 500px;
+                    background: #FFFFFF;
+                    border: 1px solid #F3D1BF;
+                    border-radius: 6px;
+                    p{
+                        display: block;
+                        color: $dark-gray;
+                        margin-left: 16px;
+                        img{
+                            margin-left: 223px;
+                        }
+                    }
+            }
+            .div1,.div2{
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+                margin-left: 19px;
+                .card{
+                  width: 370px;
+                  height: 416px;
+                 img{
+                  width: 329px;
+                  height: 416px;
+                 }
+              }
+              }
+        
+    }
+}
+@media only screen and (max-width: 391px){
+    .section1{
+        margin-left: -5px;
+    }
+}

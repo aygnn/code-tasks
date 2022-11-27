@@ -1,0 +1,602 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #FFFFFF;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fdf0e9;
+}
+
+header {
+  font-family: "Epilogue", sans-serif;
+  width: 100%;
+  height: 440px;
+  background-color: #28293E;
+}
+header .burger {
+  width: 100%;
+  height: 80px;
+  background-color: #28293E;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 176px;
+}
+header .burger .logo {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+header .burger .hamburger {
+  display: none;
+}
+header .burger ul {
+  display: flex;
+  margin: 30px;
+  align-items: center;
+}
+header .burger ul li a {
+  margin: 30px;
+  display: block;
+  padding: 0px 25px;
+}
+header .burger ul .active {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  border-radius: 6px;
+  margin-left: 223px;
+  margin-right: 170px;
+  padding: 18px 35px 16px;
+}
+header .burger .nav-bar {
+  margin-right: 20px;
+}
+header .home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header .home .portfolio {
+  position: absolute;
+  width: 311px;
+  height: 80px;
+  left: 565.5px;
+  top: 164px;
+  font-family: "Epilogue", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+header .home .agency {
+  position: absolute;
+  width: 570px;
+  height: 66px;
+  left: 435px;
+  top: 268px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+@media only screen and (max-width: 391px) {
+  header .burger {
+    width: 100%;
+  }
+  header .burger .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  header .burger .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px -205px;
+  }
+  header .burger .logo {
+    margin-right: 379px;
+  }
+  header .burger .nav-bar {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: red;
+  }
+  header .burger .nav-bar ul {
+    display: none;
+  }
+  header .home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  header .home .portfolio {
+    position: absolute;
+    width: 246px;
+    height: 64px;
+    left: 65px;
+    top: 144px;
+    /* H2 */
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    /* identical to box height, or 114% */
+    text-align: center;
+    letter-spacing: -1px;
+  }
+  header .home .agency {
+    width: 329px;
+    position: absolute;
+    height: 93px;
+    left: 23px;
+    top: 220px;
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+
+hr {
+  position: absolute;
+  width: 1170px;
+  height: 1px;
+  left: 135px;
+  top: 3008px;
+  background-color: rgb(243, 209, 191);
+}
+
+footer {
+  margin-top: 261px;
+}
+footer .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+footer .column p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  margin: 25px;
+}
+@media screen and (max-width: 391px) {
+  footer .column {
+    width: 100%;
+    display: flex;
+    margin-bottom: -37px;
+  }
+  footer .column p {
+    width: 203px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  hr {
+    position: absolute;
+    width: 94%;
+    height: 1px;
+    left: 26px;
+    top: 6108px;
+  }
+}
+.section1 {
+  margin-left: 24px;
+}
+.section1 .load {
+  width: 170px;
+  height: 48px;
+  left: 635px;
+  position: absolute;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  margin-top: 64px;
+  color: #391400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section1 .usthisse {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+.section1 .usthisse ul {
+  display: flex;
+  justify-content: center;
+}
+.section1 .usthisse ul li {
+  margin: 30px;
+  margin-top: 76px;
+}
+.section1 .usthisse ul li a {
+  color: rgba(57, 20, 0, 0.64);
+}
+.section1 .usthisse span {
+  display: none;
+}
+.section1 .div1 {
+  position: relative;
+  display: flex;
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-top: 38px;
+}
+.section1 .card {
+  width: 370px;
+  height: 416px;
+  margin: 16px;
+}
+.section1 .card img {
+  border-radius: 6px;
+}
+.section1 .card span {
+  position: absolute;
+  background-color: white;
+  border-radius: 19px;
+  color: #391400;
+  width: 84px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 256px;
+  margin-right: 238px;
+  margin-bottom: 122px;
+  margin-left: 48px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+.section1 .card p {
+  position: absolute;
+  width: 340px;
+  left: 0px;
+  top: 70px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+}
+.section1 .div2 {
+  display: flex;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+.section1 .div2 .card {
+  width: 370px;
+  height: 416px;
+  margin: 16px;
+}
+@media only screen and (max-width: 391px) {
+  .section1 .load {
+    display: flex;
+    align-items: center;
+    left: 103px;
+    margin-top: 2px;
+  }
+  .section1 ul li a {
+    display: none;
+  }
+  .section1 span.respon {
+    display: block;
+    display: flex;
+    align-items: center;
+    width: 329px;
+    height: 48px;
+    color: rgba(57, 20, 0, 0.64);
+    position: absolute;
+    left: 33px;
+    top: 500px;
+    background: #FFFFFF;
+    border: 1px solid #F3D1BF;
+    border-radius: 6px;
+  }
+  .section1 span.respon p {
+    display: block;
+    color: rgba(57, 20, 0, 0.64);
+    margin-left: 16px;
+  }
+  .section1 span.respon p img {
+    margin-left: 223px;
+  }
+  .section1 .div1, .section1 .div2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 19px;
+  }
+  .section1 .div1 .card, .section1 .div2 .card {
+    width: 370px;
+    height: 416px;
+  }
+  .section1 .div1 .card img, .section1 .div2 .card img {
+    width: 329px;
+    height: 416px;
+  }
+}
+
+@media only screen and (max-width: 391px) {
+  .section1 {
+    margin-left: -5px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+.section2 .row {
+  background-color: rgb(239, 109, 88);
+  width: 1170px;
+  height: 544px;
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-top: 240px;
+  border-radius: 6px;
+}
+.section2 .column {
+  display: flex;
+  float: left;
+  width: 50%;
+  margin-top: 416px;
+  margin-bottom: 80px;
+}
+.section2 .column h2 {
+  position: absolute;
+  width: 368px;
+  margin-left: 110px;
+  margin-top: -310px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+.section2 .column p {
+  color: rgba(255, 255, 255, 0.64);
+  position: absolute;
+  height: 66px;
+  width: 470px;
+  margin-left: 110px;
+  margin-top: -83px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+.section2 .column .contact {
+  margin-top: 27px;
+  margin-left: 110px;
+  width: 154px;
+  height: 48px;
+  border-radius: 6px;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #391400;
+}
+.section2 .column .photo {
+  display: flex;
+  justify-content: center;
+  margin-top: -384px;
+  margin-left: 73px;
+}
+@media only screen and (max-width: 391px) {
+  .section2 .row {
+    width: 100%;
+  }
+  .section2 .column {
+    width: 100%;
+    background-color: rgb(239, 109, 88);
+    margin-top: 173px;
+  }
+  .section2 .column h2 {
+    margin-left: 25px;
+    margin-top: -96px;
+  }
+  .section2 .column p {
+    width: 272px;
+    margin-left: 25px;
+    margin-top: 118px;
+  }
+  .section2 .column .contact {
+    position: absolute;
+    margin-top: 257px;
+    margin-left: 25px;
+  }
+  .section2 .column .photo {
+    height: 309px;
+    margin-top: 63px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section3 {
+  margin-top: 89px;
+}
+.section3 .row {
+  margin-left: 58px;
+}
+.section3 .column {
+  float: left;
+  width: 25%;
+  padding: 0 1px;
+}
+.section3 .column .card {
+  text-align: center;
+}
+.section3 .column .card h4 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+  margin-left: 3px;
+}
+.section3 .column .card h5 {
+  display: flex;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgb(239, 109, 88);
+}
+.section3 .column .card li {
+  display: flex;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgb(57, 20, 0);
+}
+.section3 .column .card img {
+  display: flex;
+}
+@media screen and (max-width: 391px) {
+  .section3 .row {
+    margin-left: 10px;
+  }
+  .section3 .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .section3 .column h4 {
+    margin-left: 3px;
+    margin-bottom: 38px;
+  }
+  .section3 h5 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+  }
+  .section3 li {
+    display: flex;
+    justify-content: center;
+  }
+  .section3 img {
+    margin-left: 111px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .section3 {
+    margin-top: 273px;
+  }
+}/*# sourceMappingURL=main.css.map */

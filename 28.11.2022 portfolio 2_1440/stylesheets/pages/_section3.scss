@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+.section3{
+    margin-top: 89px;
+    .row{
+        margin-left: 58px;
+    }
+      .column{
+        float: left;
+        width: 25%;
+        padding: 0 1px;
+       
+        .card {
+          
+          
+            text-align: center;
+            // background-color: rgb(144, 177, 230);
+            h4{
+                font-family: 'Epilogue';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                color: $dark-black;
+                margin-left: 3px;
+            }
+            h5{
+                display: flex;
+                font-family: 'Epilogue';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: $orange;
+            }
+            // ul{
+            //     margin-left: 20px;
+            // }
+            li{
+                display: flex;
+                font-family: 'Epilogue';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+                color: rgba(57, 20, 0, 1);
+            }
+            img{
+                display: flex;
+            }
+          }
+      }
+      @media screen and (max-width: 391px) {
+        .row{
+            margin-left: 10px;
+        }
+          .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+            h4{
+                margin-left: 3px;
+                margin-bottom: 38px;
+              }
+        }
+        h5{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 18px;
+        }
+        li{
+            display: flex;
+            justify-content: center;
+        }
+        img{
+            margin-left: 111px;
+        }
+        
+    }
+}
+@media screen and (max-width: 391px) {
+    .section3{
+        margin-top: 273px;
+       
+      }
+        
+       
+        
+        
+
+      }
