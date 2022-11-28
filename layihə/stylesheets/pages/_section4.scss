@@ -1,0 +1,202 @@
+.section4 {
+    margin-top: 60px;
+    background-color: $section4background;
+    padding-bottom: 1px;
+
+    .ust {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+
+        h2 {
+
+            width: 158px;
+            height: 55px;
+
+            /* H2 */
+
+            font-family: 'Graphik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 55px;
+            /* identical to box height, or 115% */
+
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: white;
+        }
+
+        h4 {
+
+            width: 532px;
+            height: 80px;
+
+            /* H4 */
+
+            font-family: 'Graphik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            /* or 143% */
+
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: white;
+        }
+    }
+
+    .row {
+        display: flex;
+        justify-content: flex-end;
+    align-items: center;
+    margin: 119px;
+    }
+
+    .column {
+
+        width: 30%;
+        padding: 0 10px;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            text-align: center;
+            background-color: white;
+            width: 335px;
+            height: 607px;
+          
+            box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+            border-radius: 10px;
+
+            h3 {
+                width: 51px;
+                height: 28px;
+
+                /* H3 */
+
+                font-family: 'Graphik';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 28px;
+                /* identical to box height, or 140% */
+
+                letter-spacing: 0.1px;
+                color: $text;
+            }
+
+            h5 {
+                width: 148px;
+                height: 46px;
+
+                /* H5 */
+
+                font-family: 'Graphik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 23px;
+                /* or 144% */
+
+                text-align: center;
+                letter-spacing: 0.1px;
+
+                /* second text */
+
+                color: #374754;
+
+            }
+
+            ul {
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 50px;
+
+            }
+
+            li {
+                width: 109px;
+                margin: 12px;
+                height: 28px;
+
+                /* Link */
+
+                font-family: 'Graphik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 28px;
+                /* identical to box height, or 187% */
+
+                letter-spacing: 0.2px;
+
+                /* text */
+
+                color: #252B42;
+
+            }
+
+            span {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 18px 38px;
+                gap: 10px;
+
+                width: 255px;
+                height: 56px;
+
+                /* Primary */
+
+                background: #2091F9;
+                border-radius: 35px;
+            }
+
+            img {
+                width: 153px;
+                height: 61px;
+                margin-top: 17px;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 391px) {
+           .ust{
+            padding-top: 30px;
+               h4{
+                   width: 376px;
+               }
+           }
+          
+               .row{
+                   display: flex;
+                   justify-content: center;
+                   flex-direction: column;
+               }
+               
+           
+           .column {
+             display: block;
+             margin-bottom: 20px;
+             .card{
+                margin-left: -154px;
+             }
+           }
+         }
+}
+
+
+
+      @media screen and (max-width: 391px){
+        .section4{
+            width: 100%;
+        }
+      }
