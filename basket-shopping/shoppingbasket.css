@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content:space-around!important ;
+    background-color:  #00204a;
+    padding: 20px;
+}
+nav a{
+    color: white !important ;
+}
+table{
+  width: 100%;
+}
+td{
+  box-shadow: #c1e3ff 0px 2px 19px -5px;
+  border-width: 1px ;
+}
+
+img{
+  width: 200px;
+  height: 240px;
+}
+tbody{
+  box-shadow: #c1e3ff 0px 2px 19px -5px;
+
+}
+  
+
+  
