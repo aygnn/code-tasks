@@ -122,6 +122,7 @@ function AddLIsten(button,bag)
     button.addEventListener("click",function(){
         count++
         span.innerText=count
+        span.style.color="white"
         if(mainbasket.some(x=> x.product.name == bag.name)){
             mainbasket.forEach(elem=> {
                 if(elem.product.name == bag.name){
