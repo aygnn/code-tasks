@@ -1,0 +1,144 @@
+/* img.guess{
+    width: 417px;
+    height: 618px;
+} 
+div.main{
+    display: flex;
+}
+div.card{
+    margin: 55px;
+} */
+/* div.owl-carousel{
+    width: 300px;
+    height: 300px;
+} */
+nav{
+    display: flex;
+    justify-content:space-around!important ;
+    background-color:  #00204a;
+    padding: 20px;
+}
+nav a{
+    color: white !important ;
+}
+nav a.navbar-brand{
+    font-size: 33px;
+}
+.span1{
+   background-color: #ebeef7;
+    border-radius:50%;
+    width: 55px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+span.count{
+    display: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:transparent;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 54%;
+    margin-top: -11px;
+}
+.item img{
+        width: 200px;
+        height: 350px;
+}
+
+
+section {
+    position: relative;
+    width: 100%;
+    height: 68px;
+    overflow: hidden;
+  }
+  
+  .scroll {
+    
+    width: 100%;
+   
+  }
+  .scroll div {
+    font-weight: 900;
+    font-size: 44px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #212121;
+    background-color: #fff;
+    /* -webkit-animation: animate 40s -40s linear infinite; */
+            animation: animate 28s 0s linear infinite;
+    will-change: transform;
+  }
+  /* .scroll div:nth-child(2) {
+    -webkit-animation: animate2 40s -20s linear infinite;
+            animation: animate2 40s -20s linear infinite;
+  } */
+  .scroll span {
+    -webkit-text-stroke: 2px #000000;
+    color: #ffffff;
+    background: #544a7d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  .text1 {
+    transform: rotate(90deg) translate(-200px, 200px);
+  }
+  
+  .text2 {
+    transform: rotate(-25deg) translate(-200px, 120px);
+  }
+  
+  .text3 {
+    transform: rotate(25deg) translate(-200px, 300px);
+  }
+  
+  .text3 {
+    transform: rotate(-2deg) translate(-200px, -150px);
+  }
+  
+  .text5 {
+    transform: rotate(5deg) translate(-200px, 250px);
+  }
+  
+  @-webkit-keyframes animate {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @-webkit-keyframes animate2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+  @keyframes animate2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
