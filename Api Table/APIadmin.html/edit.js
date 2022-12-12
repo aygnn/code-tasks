@@ -14,14 +14,16 @@ companyname.value=suppliers.companyName,
 
 savebtn.addEventListener("click",function(){
     
-  suppliers.companyName=companyname.value
-   suppliers.contactName=contactname.value,
-    suppliers.contactTitle=contactTitle.value,
+  
     
+    console.log(suppliers.id);
     
-    
-    axios.put(`https://northwind.vercel.app/api/suppliers/${suppliers.id}`)
-    // .then(res=>console.log(res));
+    axios.put(`https://northwind.vercel.app/api/suppliers/${suppliers.id}`, {
+        companyName:companyname.value,
+        contactName:contactname.value,
+        contactTitle:contactTitle.value,
+    })
+    .then(res=>console.log(res.data));
 })
 
 
